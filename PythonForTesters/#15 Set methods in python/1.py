@@ -1,0 +1,15 @@
+a = {"this","is","my","super","set","YO"}
+b = {"set","which","i","will","union","YO"}
+a.add("not good value")
+a.add("not so good value")
+a.remove("not good value")
+a.discard("not so good value")
+a.pop()
+c = a.union(b)
+#a.update(b)
+d = a.intersection(b)
+e = a.symmetric_difference(b)
+f = a.difference(a)
+g = a.issubset(b)
+h = a.issuperset(d)
+print(a,b,c,d,e,f,g,h)

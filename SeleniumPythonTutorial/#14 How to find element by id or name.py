@@ -5,7 +5,7 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 
-class FindElementById():
+class FindElementById:
     def locateByID(self):
         driver = webdriver.Chrome(service = Service(ChromeDriverManager().install()))
         driver.get("https://vk.com/")

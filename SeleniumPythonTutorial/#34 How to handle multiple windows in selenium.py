@@ -3,7 +3,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
 import time
-class yoink34:
+class yoink40:
     def yoink(self):
         driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
         driver.get("https://www.yatra.com/")
@@ -24,5 +24,5 @@ class yoink34:
 
 
 
-a = yoink34()
+a = yoink40()
 a.yoink()
